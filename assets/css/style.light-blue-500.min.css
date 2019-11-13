@@ -3847,8 +3847,7 @@ hr.double{
     text-align:right
 }
 .card .blockquote.blockquote-avatar{
-    padding:30px 20px 30px 70px;
-    padding:3rem 2rem 3rem 7rem
+    padding:20px;
 }
 .card .blockquote.blockquote-avatar.right{
     padding:30px 70px 30px 20px;
@@ -3963,7 +3962,7 @@ hr.double{
     text-shadow:1px 1px 0 rgba(3,169,244,.04),1px 2px 0 rgba(3,169,244,.04),1px 3px 0 rgba(3,169,244,.04),2px 4px 0 rgba(3,169,244,.04),3px 5px 0 rgba(3,169,244,.04),4px 6px 0 rgba(3,169,244,.04),5px 7px 0 rgba(3,169,244,.04),6px 8px 0 rgba(3,169,244,.04),7px 9px 0 rgba(3,169,244,.04),8px 10px 0 rgba(3,169,244,.04),9px 11px 0 rgba(3,169,244,.04),10px 12px 0 rgba(3,169,244,.04),11px 13px 0 rgba(3,169,244,.04),12px 14px 0 rgba(3,169,244,.04),13px 15px 0 rgba(3,169,244,.04),14px 16px 0 rgba(3,169,244,.04),15px 17px 0 rgba(3,169,244,.04),16px 18px 0 rgba(3,169,244,.04),17px 19px 0 rgba(3,169,244,.04),18px 20px 0 rgba(3,169,244,.04),19px 21px 0 rgba(3,169,244,.04),20px 22px 0 rgba(3,169,244,.04),21px 23px 0 rgba(3,169,244,.04)
 }
 .ms-header{
-    min-height:100px;
+    min-height:86px;
     background-color:#fff;
     position:relative;
     z-index:2
@@ -6888,7 +6887,7 @@ pre.line-numbers>code{
 .card.card-primary{
     border-bottom:solid 3px #03a9f4;
     border-radius:3px;
-    background: #f3f3b6;
+    background: #03a9f414;
     margin-top: 20px;
     font-weight: 600;
 }
@@ -10364,8 +10363,7 @@ a.img-thumbnail:hover,a.img-thumbnail:focus{
     }
 }
 .wrap{
-    padding:60px 0;
-    padding:6rem 0
+    padding:30px 0 0 0;
 }
 .wrap.wrap-mountain{
     background-color:#424242;
@@ -13928,7 +13926,11 @@ body.lb-disable-scrolling{
     height: 368px;
 }
 .card-item-service{
-    height: 368px;
+    height: 410px;
+}
+.text-bottom{
+    position: absolute;
+    bottom: 0px;
 }
 .ms-lead-navbar .container .navbar-nav .nav-item .nav-link.active:before{
     height:3px
